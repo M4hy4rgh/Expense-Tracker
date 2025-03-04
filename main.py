@@ -167,10 +167,6 @@ class MoneyManager:
         for row in result:
             category, category_spending = row
             table.add_row([category, f"${category_spending:,.2f}"])
-        # print('+--------------------------------+')
-        # print("|{:^32}|".format("Transaction"))
-        # make the commented code above dynamic with the width of the table
-
 
         print(table)
 
